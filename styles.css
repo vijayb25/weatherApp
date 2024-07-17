@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --font: Merriweather, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/black-clouds-field.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.weatherBox{
+    max-width: 300px;
+}
+
+.weatherForm{
+    text-align: center;
+}
+
+.cityInput{
+
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.weatherBtn{
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #399918;
+    color: #fff;
+    margin: 15px 0;
+
+    &:hover{
+        background: #2e7913;
+    }
+}
+
+.card{
+    flex-direction: column; gap: 10px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .3);
+    color: #fff;
+}
+
+.none{
+    display: none;
+}
+
+.cityDisplay{
+}
+
+.tempDisplay{
+}
+
+.humidityDisplay{
+
+}
+
+.descDisplay{
+
+}
