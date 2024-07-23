@@ -69,9 +69,6 @@ function displayWeatherInfo(data){
     card.appendChild(descDisplay);
 }
 
-function getWeatherID(weatherId){
-
-}
 
 function displayError(message){
 
